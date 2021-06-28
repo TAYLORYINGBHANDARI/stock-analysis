@@ -92,14 +92,26 @@ Here comes the fix:
 
 ### Run time analysis
 Here are the run time comparison shown below.
+
 2017 original vs 2017 refactored
+![](resource/1-2017.png)
+![](resource/2-2017.png)
+
 
 2018 original vs 2018 refactored
+![](resource/1-2018.png)
+![](resource/1-2018.png)
 
 After refactoring, you can see our run time for 2017 and our changed drastically. 
 
 
 ### Data results 
+
+
+![](resource/stock2017.png)
+![](resource/stock2018.png)
+
+
 After we refactored the data, we got the same value as the original one. We can see clearly in 2017 almost all green stocks had  good results. Except 'TERP' with a negative return rate . The two most high returned rate stocks are 'DQ' and SEDG. The most traded with the higher total daily volumes stocks are "SPWR" and "FSLR". Other stocks such as 'CSIQ','ENPH','JKS','RUN' and 'SEDG' also had good market popularity with total daily volumes around 200 million.
 In 2018, the data showed drastic changes. There are only stock 'ENPH' and 'RUN' provided positive return rate with the highest daily earnings volume.The 'ENPH' total daily volume increased from 200 million to 600 million, and  the stock 'RUN' increased from 200 million to 500 million respectively.
 Based on the date we have seen from year 2017 to 2018, stock 'ENPH' and 'RUN' is the good stock for Steve and his parents to invest in.
@@ -110,7 +122,7 @@ Based on the date we have seen from year 2017 to 2018, stock 'ENPH' and 'RUN' is
 
 ## Summary
 
-### Pros and Cons of Refactoring code
+### Pros and Cons of refactoring code
 
 Potentially refactoring code will improve code readability and reduce comlexity and be more efficient by taking fewer steps, using less memory. 
 However, we may not have the luxury to refactoring code all the time due to its disadvantage. Code refactoring is time consuming especially when comes to big project that require major changes on both front and back end. If time is limited before releasing date, there will have a higher chance of failure due to code malfunction, lack of testing  and might cause to introduce bugs.
